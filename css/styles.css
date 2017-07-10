@@ -1,0 +1,39 @@
+html, body {
+	height: 100%;
+	background-color: #ecf0f1;
+}
+.demo-wrapper {
+	height: 100%;
+	width: 100%;
+}
+.demo-wrapper .sidenote {
+	width: 500px;
+	text-align: center;
+	background-color: #e67e22;
+	color: #fff;
+	margin: 15px auto;
+	font-size: 15px;
+	border-radius: 2px;
+	padding: 5px;
+	margin-top: 150px;
+}
+.demo-wrapper .coord {
+	width: 210px;
+	margin: 0 auto;
+	position: relative;
+	height: 38px;
+	top: 25px;
+}
+.demo-wrapper .coord div {
+	width: 100px;
+	height: 38px;
+	background-color: #7f8c8d;
+	color: #fff;
+	float: left;
+	text-align: center;
+	line-height: 38px;
+	border-radius: 2px;
+}
+.demo-wrapper .coord div:first-child {
+	margin-right: 10px;
+}
